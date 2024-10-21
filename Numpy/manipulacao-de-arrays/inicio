@@ -1,0 +1,38 @@
+#
+#-----------------------------------------------------------------------------
+# Programa:     Manipulação de Arrays
+# * Autor:      Raissa Cavalcanti
+# * Data:       21/10/2024
+# * Descrição:  Array com 4 linhas e 3 colunas com valore aleatórios
+# * -----------------------------------------------------------------------------
+# */
+
+import numpy as np
+
+array_random = np.random.random((4,3))
+print(array_random, "\n")
+
+#
+#-----------------------------------------------------------------------------
+# Programa:     Manipulação de Arrays
+# * Autor:      Raissa Cavalcanti
+# * Data:       21/10/2024
+# * Descrição:  Array com 5 colunas e 10 linhas inicializados com zero
+# * -----------------------------------------------------------------------------
+# */
+
+array_zero = np.zeros((10,5))
+print(array_zero, "\n")
+
+
+#
+#-----------------------------------------------------------------------------
+# Programa:     Manipulação de Arrays
+# * Autor:      Raissa Cavalcanti
+# * Data:       21/10/2024
+# * Descrição:  Array com valores inteiros aleatórios 3 linhas e 5 colunas
+# * -----------------------------------------------------------------------------
+# */
+
+array_inteiro = np.random.randint((3,5))
+print(array_inteiro, "\n")
